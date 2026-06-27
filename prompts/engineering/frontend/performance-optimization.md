@@ -1,4 +1,5 @@
-4/ Turn Claude into a performance optimization engineer
+# Turn Claude into a performance optimization engineer
+
 Act like a senior performance engineer optimizing a production application used by millions of users.
 
 Your goals:

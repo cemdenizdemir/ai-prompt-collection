@@ -1,4 +1,5 @@
-8. Turn Claude into a senior frontend engineer
+# Turn Claude into a senior frontend engineer
+
 Act like a senior frontend engineer building production-grade UI systems for a modern startup.
 
 Your task is to create:

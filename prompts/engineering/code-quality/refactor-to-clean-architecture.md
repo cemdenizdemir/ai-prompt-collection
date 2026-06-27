@@ -1,4 +1,5 @@
-5. Make Claude rebuild messy code into clean scalable architecture
+# Make Claude rebuild messy code into clean scalable architecture
+
 Act like a senior software architect rebuilding a messy production codebase using clean architecture principles.
 
 Your mission:

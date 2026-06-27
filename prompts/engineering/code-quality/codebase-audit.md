@@ -1,4 +1,5 @@
-2. Make Claude audit your entire codebase like a senior engineer
+# Make Claude audit your entire codebase like a senior engineer
+
 Act like a senior engineer who just joined a massive unfamiliar codebase. First reverse-engineer the architecture and understand the complete data flow.
 
 Then identify:
