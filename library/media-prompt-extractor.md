@@ -66,7 +66,7 @@ The file must contain exactly this structure, with a blank line between each sec
 ### Rules for each section:
 
 **[Original Title]**
-The title exactly as it appears in the image, prefixed with `#` to render as a markdown heading. No other changes.
+The title as it appears in the image, prefixed with `#` to render as a markdown heading. Strip any leading number and punctuation (e.g. `1.`, `2/`, `8.`) from the title — keep only the descriptive text.
 
 **[media line]**
 Include this line only if a media type was detected in Step 3. Use the matching tag:
