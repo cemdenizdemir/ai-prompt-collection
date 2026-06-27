@@ -56,17 +56,17 @@ Name the file `[kebab-case-title].md`.
 The file must contain exactly this structure, with a blank line between each section:
 
 ```
-[Original Title]
-
-[media line — only if a media type was detected]
+# [Original Title]
 
 [prompt text]
+
+[media line — only if a media type was detected]
 ```
 
 ### Rules for each section:
 
 **[Original Title]**
-The title exactly as it appears in the image. No changes.
+The title exactly as it appears in the image, prefixed with `#` to render as a markdown heading. No other changes.
 
 **[media line]**
 Include this line only if a media type was detected in Step 3. Use the matching tag:
