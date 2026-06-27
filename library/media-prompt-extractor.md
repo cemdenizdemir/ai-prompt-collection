@@ -39,11 +39,11 @@ If the prompt does not clearly fall into any of these, it has no media line.
 
 Pick the most appropriate file extension based on what the prompt describes or implies. When nothing specific is mentioned, use these defaults:
 
-| Type  | Default format |
+| Type | Default format |
 |-------|---------------|
-| image | `png`         |
-| video | `mp4`         |
-| audio | `mp3`         |
+| image | `png` |
+| video | `mp4` |
+| audio | `mp3` |
 
 If the prompt explicitly mentions a format (e.g. "generate a GIF", "export as WAV", "render as WebM"), use that extension instead.
 
@@ -53,11 +53,13 @@ If the prompt explicitly mentions a format (e.g. "generate a GIF", "export as WA
 
 Name the file `[kebab-case-title].md`.
 
-The file must contain exactly this structure:
+The file must contain exactly this structure, with a blank line between each section:
 
 ```
 [Original Title]
+
 [media line — only if a media type was detected]
+
 [prompt text]
 ```
 

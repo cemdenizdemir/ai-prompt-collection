@@ -1,5 +1,7 @@
 VIP FIFA Spectator Prompt
+
 ![image](/image.png)
+
 Photorealistic candid live sports broadcast cutaway, aspect ratio 3:4.
 Subject: [Name or Image Reference], supporting [Supported Team].
 Scene: FIFA World Cup 2026 match between [Team A] and [Team B] at [Stadium]. Subject is inside a VIP suite behind a clear glass railing overlooking the pitch, unaware of the camera, looking tense/hopeful.
