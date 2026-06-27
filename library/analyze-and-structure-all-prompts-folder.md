@@ -10,13 +10,35 @@ Analyze the entire `/prompts` folder and design an optimal folder structure and 
 - Map content themes, difficulty levels, use cases
 - Identify clustering patterns
 - Check for naming inconsistencies or duplicates
+- Detect media prompts by checking for `![image]`, `![video]`, or `![audio]` lines
 - Ignore `/library` and other folders—focus only on `/prompts`
+
+**Folder structure rules:**
+- Regular prompts → flat `.md` file inside their category folder
+- Media prompts → dedicated subfolder containing both the `.md` prompt file and the generated media file side by side
+
+**Example structure:**
+```
+/prompts
+  /engineering/
+    turn-claude-into-a-senior-frontend-engineer.md
+    make-claude-audit-your-entire-codebase.md
+  /business/
+    immediate-competitive-advantage.md
+  /media/
+    /celebrity-floatie/
+      celebrity-floatie.md
+      image.png
+    /vip-fifa-spectator-prompt/
+      vip-fifa-spectator-prompt.md
+      image.png
+```
 
 **Deliverables:**
 1. **Folder hierarchy** — hierarchical structure within /prompts, max 3 levels deep, semantic naming
-2. **Naming convention** — consistent kebab-case rules, tag prefixes if useful
+2. **Naming convention** — consistent kebab-case rules for both files and subfolders
 3. **File organization** — which prompts go where, and why
 4. **Migration plan** — step-by-step refactoring with git mv commands
-5. **Maintenance rules** — future naming and structure standards
+5. **Maintenance rules** — future naming and structure standards, including media subfolder convention
 
 Build it like a reference library that scales to 500+ prompts.
