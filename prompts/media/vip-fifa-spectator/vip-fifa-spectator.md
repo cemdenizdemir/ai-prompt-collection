@@ -1,6 +1,6 @@
 VIP FIFA Spectator Prompt
 
-![image](/image.png)
+![image](image.png)
 
 Photorealistic candid live sports broadcast cutaway, aspect ratio 3:4.
 Subject: [Name or Image Reference], supporting [Supported Team].

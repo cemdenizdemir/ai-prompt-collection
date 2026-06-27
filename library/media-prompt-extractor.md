@@ -72,9 +72,9 @@ The title exactly as it appears in the image. No changes.
 Include this line only if a media type was detected in Step 3. Use the matching tag:
 
 ```
-![image](/image.[format])
-![video](/video.[format])
-![audio](/audio.[format])
+![image](image.[format])
+![video](video.[format])
+![audio](audio.[format])
 ```
 
 Omit it entirely if no media type was detected. Do not add a blank placeholder.

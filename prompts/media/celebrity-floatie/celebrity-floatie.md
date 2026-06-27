@@ -1,6 +1,6 @@
 Celebrity Floatie
 
-![image](/image.png)
+![image](image.png)
 
 Photorealistic luxury pool product photo of a human-sized inflatable vinyl pool floatie resembling [CELEBRITY NAME] or [insert your picture], reclining on bright blue pool water. Full-body floatie with exaggerated inflated arms, legs, feet, and torso, glossy vinyl clothing, visible seams, wrinkles, air chambers, water droplets, and realistic reflections.
 
