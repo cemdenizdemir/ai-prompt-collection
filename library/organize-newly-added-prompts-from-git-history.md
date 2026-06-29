@@ -14,7 +14,7 @@ Identify prompts added recently to `/prompts` but not yet pushed, then organize 
 
 **Folder structure rules:**
 - Regular prompts → flat `.md` file inside their category folder
-- Media prompts → dedicated subfolder containing both the `.md` prompt file and the generated media file side by side
+- Media prompts → dedicated subfolder under `/media/[category]/[folder-for-files]/`, where category is the media type (e.g. `image`, `video`, `audio`)
 
 **Example structure:**
 ```
@@ -22,12 +22,18 @@ Identify prompts added recently to `/prompts` but not yet pushed, then organize 
   /engineering/
     turn-claude-into-a-senior-frontend-engineer.md
   /media/
-    /celebrity-floatie/
-      celebrity-floatie.md
-      image.png
-    /vip-fifa-spectator-prompt/
-      vip-fifa-spectator-prompt.md
-      image.png
+    /image/
+      /celebrity-floatie/
+        celebrity-floatie.md
+        image.png
+    /video/
+      /vip-fifa-spectator/
+        vip-fifa-spectator.md
+        video.mp4
+    /audio/
+      /some-audio-prompt/
+        some-audio-prompt.md
+        audio.mp3
 ```
 
 **Output:**
